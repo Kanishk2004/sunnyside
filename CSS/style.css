@@ -1,0 +1,254 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    font-size: 18px;
+}
+
+/* TOGGLE MENU */
+.toggle-menu {
+    display: none;
+}
+
+#menu-btn {
+    display: none;
+}
+
+header {
+    height: 100vh;
+    background-image: url(../images/desktop/image-header.jpg);
+    background-size: contain;
+    background-position: center;
+}
+
+/* NAVIGATION BAR */
+nav {
+    padding: 2.5%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Barlow', sans-serif;
+}
+
+.navigation {
+    width: 30vw;
+    display: block;
+}
+
+.navigation ul {
+    text-align: right;
+}
+
+.navigation li {
+    padding: 10px 25px;
+    display: inline;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.navigation li.btn {
+    color: hsl(212, 27%, 19%);
+    background: white;
+    border-radius: 20px;
+    font-family: 'Fraunces', serif;
+}
+
+/* HEADING */
+div.heading {
+    height: 30vh;
+    padding: 10vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+div.heading h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10vh;
+}
+
+/* SECTION 1 AND 2 */
+section.section1 {
+    height: 70vh;
+    display: flex;
+    justify-self: normal;
+}
+
+div.egg {
+    width: 50vw;
+    background-image: url(../images/desktop/image-transform.jpg);
+    background-size: contain;
+    background-position: center;
+}
+
+section .head1 {
+    width: 50vw;
+}
+
+.head1 h1 {
+    color: hsl(212, 27%, 19%);
+    font-family: 'Fraunces', serif;
+    font-size: 50px;
+    text-align: left;
+    padding: 100px 100px 0px 150px;
+}
+
+.head1 p {
+    margin-bottom: 40px;
+    color: hsl(213, 9%, 39%);
+    font-size: 20px;
+    padding: 50px 150px;
+}
+
+.head1 h2 {
+    padding: 0px 150px;
+    font-size: 20px;
+}
+
+.head1 h2:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 230, 0);
+    text-decoration-thickness: 7px;
+}
+
+div.redcup {
+    width: 50vw;
+    background-image: url(../images/desktop/image-stand-out.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* SECTION 3 */
+.section3 .chery {
+    width: 50vw;
+    background-size: cover;
+    background-position: top;
+    background-image: url(../images/desktop/image-graphic-design.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-self: normal;
+}
+
+.section3 .orange {
+    width: 50vw;
+    background-size: cover;
+    background-position: top;
+    background-image: url(../images/desktop/image-photography.jpg);
+}
+
+.chery p,
+.orange p {
+    font-family: 'Barlow', sans-serif;
+    color: hsl(213, 9%, 39%);
+    text-align: center;
+    padding: 0px 200px;
+    font-size: 20px;
+}
+
+.chery h1,
+.orange h1 {
+    font-family: 'Fraunces', serif;
+    color: hsl(198, 62%, 26%);
+    text-align: center;
+    margin-top: 48vh;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* CLIENT TESTIMONIAL */
+
+.testimonial h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Fraunces', serif;
+    padding: 100px 150px 0px 150px;
+    color: hsl(232, 10%, 55%);
+    letter-spacing: 10px;
+    word-spacing: 20px;
+}
+
+.testimonial .flex-box {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Barlow', sans-serif;
+    color: hsl(213, 9%, 39%);
+}
+
+.clients {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 20vw;
+    height: 40vh;
+    line-height: 30px;
+    text-align: center;
+}
+
+.clients img {
+    border-radius: 100%;
+    height: 70px;
+}
+
+.clients .about h3 {
+    color: hsl(212, 27%, 19%);
+    font-size: larger;
+}
+
+.clients .about p {
+    color: hsl(210, 4%, 67%);
+}
+
+/* IMAGES SECTION */
+
+.images {
+    display: flex;
+}
+
+.images div img {
+    width: 24.7vw;
+}
+
+/* FOOTER SECTION */
+footer {
+    background: hsl(168, 38%, 63%);
+    padding: 100px;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+}
+
+footer div h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Barlow', sans-serif;
+    color: hsl(167, 39%, 33%);
+    font-weight: 900;
+}
+
+footer .span {
+    margin: 50px;
+    color: hsl(168, 34%, 41%);
+}
+
+footer div span {
+    padding: 40px;
+    font-size: 20px;
+}
+
+footer .icons img {
+    padding: 10px;
+}
+
+/* HOVER EFFECTS */
+span:hover {
+    color: white;
+}
+
+.navigation li.btn:hover {
+    background: rgba(255, 255, 255, 0.39);
+    color: hsl(0, 0%, 100%);
+}
